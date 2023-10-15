@@ -4,7 +4,6 @@ def linear_search(arr, target):
             return i  # Return the index of the target element if found
     return -1  # Return -1 if the target element is not in the list
 
-# Example usage:
 my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 target_element = 6
 result = linear_search(my_list, target_element)
