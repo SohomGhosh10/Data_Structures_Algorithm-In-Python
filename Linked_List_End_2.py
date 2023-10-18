@@ -37,10 +37,10 @@ class Linkedlist:
                 
             itr.next = Node(data , None)
                         
-    def insert_data(self , data_list):
+    def insert_data(self , data_list): # function for inserting whole data list
         if self.head is None:
-            for data in data_list:
-                self.insert_At_End(data)
+            for data in data_list: # Traversing the whole list
+                self.insert_At_End(data) # Inserting the list at the end
                 
 if __name__ == '__main__':
     ll = Linkedlist()
