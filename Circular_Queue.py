@@ -57,4 +57,4 @@ cq.enqueue(5)
 cq.display()
 cq.dequeue()
 cq.enqueue(6)
-cq.display()
+cq.display() # 1 2 3 4 5 
