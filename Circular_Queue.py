@@ -1,16 +1,16 @@
 class CircularQueue:
-    def __init__(self, capacity):
-        self.capacity = capacity
-        self.queue = [None] * capacity
-        self.front = self.rear = -1
+    def __init__(self, capacity): # constructor
+        self.capacity = capacity # Queue size
+        self.queue = [None] * capacity 
+        self.front = self.rear = -1 #Front and rear pointers
 
     def is_empty(self):
-        return self.front == -1
+        return self.front == -1 # Queue empty
 
     def is_full(self):
-        return (self.rear + 1) % self.capacity == self.front
+        return (self.rear + 1) % self.capacity == self.front # Queue Full
 
-    def enqueue(self, item):
+    def enqueue(self, item): # Enqueue
         if self.is_full():
             print("Queue is full. Cannot enqueue.")
         else:
@@ -20,7 +20,7 @@ class CircularQueue:
                 self.rear = (self.rear + 1) % self.capacity
             self.queue[self.rear] = item
 
-    def dequeue(self):
+    def dequeue(self): # Dequeue
         if self.is_empty():
             print("Queue is empty. Cannot dequeue.")
         else:
@@ -29,7 +29,7 @@ class CircularQueue:
             else:
                 self.front = (self.front + 1) % self.capacity
 
-    def peek(self):
+    def peek(self): # First element
         if self.is_empty():
             print("Queue is empty. Cannot peek.")
         else:
