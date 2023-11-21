@@ -5,7 +5,7 @@ class Node: #Class of Node
     
 class Linkedlist: #Class of linkedlist
     def __init__(self): #Constructor
-        self.head = None #head pointer pointing to NULL
+        self.head = None #head pointer pointing to NULL.
     
     def insert_At_begining(self , data): #Function for insert at beginning
         node = Node(data , self.head) # new node is before head node
