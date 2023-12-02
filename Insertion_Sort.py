@@ -8,7 +8,7 @@ def insertionSort(arr):
         while arr[j] > current and j >= 0:
             arr[j + 1] = arr[j] # Swapping
             j -= 1
-        arr[j + 1] = current # New bcurrent element
+        arr[j + 1] = current # New bcurrent element.
     
 my_list = [13 , 15 , 64 , 26 , 48 , 78]
 insertionSort(my_list)
