@@ -1,10 +1,10 @@
-def fact(n):
-    if(n<=1):
+def fact(n): # factorial function
+    if(n<=1): 
         return 1
     else:
-        return n*fact(n-1)
+        return n*fact(n-1) # return factorial of a number
 n=int(input("Enter a no: "))
-s=n
+s=n 
 sum=0
 while n>0:
     rem=n%10
