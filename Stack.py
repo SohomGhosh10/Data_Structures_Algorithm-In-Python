@@ -12,7 +12,6 @@ class stack:
     def push(self , item):
         if not self.is_full():
             self.stack.append(item)
-            
         else:
             print("Stack Overflow")
             
