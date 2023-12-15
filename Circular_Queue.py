@@ -1,5 +1,5 @@
 class CircularQueue:
-    def __init__(self, capacity): # constructor
+    def __init__(self, capacity): # constructor.
         self.capacity = capacity # Queue size
         self.queue = [None] * capacity 
         self.front = self.rear = -1 #Front and rear pointers
