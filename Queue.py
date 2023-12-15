@@ -1,5 +1,5 @@
 class Queue:
-    def __init__(self , max_size): # Constructor
+    def __init__(self , max_size): # Constructor.
         self.max_size = max_size # Size of the queue
         self.items = []
         
