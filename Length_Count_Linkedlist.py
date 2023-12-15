@@ -42,7 +42,7 @@ class Linkedlist:
             for data in data_list:
                 self.insert_At_End(data)
                 
-    def get_Length(self):
+    def get_Length(self): # Getting the length of the linkedlist
         counter = 0
         itr = self.head
         
