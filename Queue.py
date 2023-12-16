@@ -3,7 +3,7 @@ class Queue:
         self.max_size = max_size # Size of the queue
         self.items = []
         
-    def is_empty(self): # Underflow condition
+    def is_empty(self): # Underflow condition.
         return len(self.items) == 0
     
     def is_Full(self): # Overflow condition
