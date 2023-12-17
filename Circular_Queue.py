@@ -35,7 +35,7 @@ class CircularQueue:
         else:
             return self.queue[self.front]
 
-    def display(self):
+    def display(self): # display the full queue
         if self.is_empty():
             print("Queue is empty.")
         else:
