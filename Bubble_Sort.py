@@ -4,10 +4,10 @@ def bubbleSort(arr):
         #Swapping
         
         for j in range(0 , n - i - 1):
-            if arr[j] > arr[j + 1]:
+            if arr[j] > arr[j + 1]: # If element is greater than previous
                 print("Swapping")
                 
-                arr[j] , arr[j+1] = arr[j+1] , arr[j]
+                arr[j] , arr[j+1] = arr[j+1] , arr[j] # swapping
 
 my_list = [13 , 65 , 78 , 25 , 46 , 89]
 bubbleSort(my_list)
